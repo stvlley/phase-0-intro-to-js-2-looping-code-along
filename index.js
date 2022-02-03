@@ -9,9 +9,10 @@ function writeCards(names, str) {
 
 writeCards(["Guadalupe", "Ollie", "Aki"], "surprise")
 
-function countDown() {
-    let i = 10
+function countDown(int) {
+    let i = int
     while ( i > -1) {
         console.log(i--);
     }
 }
+console.log(countDown())
